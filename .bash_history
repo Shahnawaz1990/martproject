@@ -507,3 +507,9 @@ git push -u origin main
 git remote add origin https://github.com/Shahnawaz1990/martproject.git
 git branch -M main
 git push -u origin main
+git config --global credential.helper cache
+git config --global user.email shahnawaz.nazimali@gmail.com
+git config --global user.name Shahnawaz1990
+git remote add origin https://github.com/Shahnawaz1990/martproject.git
+git branch -M main
+git push -u origin main
