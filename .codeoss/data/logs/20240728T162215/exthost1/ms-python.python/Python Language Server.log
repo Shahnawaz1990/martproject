@@ -1,0 +1,41 @@
+2024-07-28 16:23:07.563 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1"
+
+2024-07-28 16:33:41.955 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "11"
+
+2024-07-28 16:33:42.086 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "12"
+
+2024-07-28 16:33:42.119 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "14"
+
+2024-07-28 16:33:42.186 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "16"
+
+2024-07-28 16:33:42.878 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "19"
+WARNING:pygls.protocol:Cancel notification for unknown message id "18"
+
+2024-07-28 16:33:44.629 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "22"
+
+2024-07-28 16:33:45.932 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "26"
+
+2024-07-28 16:33:49.406 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "28"
+
+2024-07-28 16:34:17.845 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "35"
+
+2024-07-28 16:34:24.067 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "47"
+
+2024-07-28 16:35:31.419 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "76"
+
+2024-07-28 16:35:33.053 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "78"
+
+2024-07-28 16:36:24.661 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "104"
+
+2024-07-28 16:36:26.746 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "109"
+
+2024-07-28 16:37:04.300 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "116"
+
+2024-07-28 16:45:45.260 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "171"
+
+2024-07-28 16:46:18.921 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "195"
+
+2024-07-28 16:46:20.092 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "197"
+
+2024-07-28 16:47:49.002 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "204"
+

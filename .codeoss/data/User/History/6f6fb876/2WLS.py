@@ -1,0 +1,1 @@
+from martprojectproduct.app.main import Product

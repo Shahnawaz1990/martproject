@@ -1,0 +1,304 @@
+2024-07-26 16:31:03.032 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "13"
+
+2024-07-26 16:31:03.107 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "15"
+
+2024-07-26 16:31:03.146 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "16"
+
+2024-07-26 16:31:03.186 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "17"
+
+2024-07-26 16:31:03.187 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "14"
+
+2024-07-26 16:31:03.424 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "18"
+
+2024-07-26 16:31:03.430 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "19"
+
+2024-07-26 16:31:03.508 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "20"
+
+2024-07-26 16:31:03.510 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "21"
+
+2024-07-26 16:31:03.517 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "22"
+
+2024-07-26 16:31:03.557 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "24"
+
+2024-07-26 16:31:03.560 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "23"
+
+2024-07-26 16:31:03.713 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "25"
+
+2024-07-26 16:31:03.723 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "28"
+
+2024-07-26 16:31:03.726 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "29"
+
+2024-07-26 16:31:03.732 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "30"
+
+2024-07-26 16:31:17.535 [info] Exception in thread Thread-34:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-07-26 16:31:17.536 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/shahnawaz_nazimali/martproject/inventory/app/main.py", line 143
+    @app.get("/products/{product_id}", response_model=list[Product])
+
+2024-07-26 16:31:17.536 [info] IndentationError: expected an indented block after 'for' statement on line 137
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-07-26 16:31:17.537 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-07-26 16:31:17.538 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-07-26 16:31:17.538 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2024-07-26 16:31:17.539 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2024-07-26 16:31:17.540 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-07-26 16:31:17.540 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+
+2024-07-26 16:31:17.540 [info]     raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-07-26 16:31:19.304 [info] Exception in thread Thread-35:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-07-26 16:31:19.305 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/shahnawaz_nazimali/martproject/inventory/app/main.py", line 143
+    @app.get("/products/{product_id}", response_model=list[Product])
+IndentationError: expected an indented block after 'for' statement on line 137
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-07-26 16:31:19.305 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2024-07-26 16:31:19.305 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-07-26 16:31:19.306 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-07-26 16:31:24.920 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "61"
+
+2024-07-26 16:31:25.912 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "63"
+
+2024-07-26 16:31:25.913 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "62"
+
+2024-07-26 16:32:52.120 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "85"
+
+2024-07-26 16:32:52.684 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "87"
+
+2024-07-26 16:33:18.205 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "97"
+
+2024-07-26 16:35:30.544 [info] Exception in thread Thread-76:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-07-26 16:35:30.545 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/shahnawaz_nazimali/martproject/inventory/app/main.py", line 145
+    @app.get("/products/{product_id}", response_model=list[Product])
+IndentationError: expected an indented block after 'for' statement on line 138
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-07-26 16:35:30.545 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-07-26 16:35:30.546 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+
+2024-07-26 16:35:30.548 [info]     end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-07-26 16:35:32.109 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "141"
+
+2024-07-26 16:36:34.656 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "154"
+
+2024-07-26 16:36:40.560 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "158"
+
+2024-07-26 16:36:40.987 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "161"
+
+2024-07-26 16:37:06.182 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "171"
+
+2024-07-26 16:37:06.192 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "172"
+
+2024-07-26 16:37:14.719 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "186"
+
+2024-07-26 16:37:14.919 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "188"
+
+2024-07-26 16:37:14.922 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "187"
+
+2024-07-26 16:37:14.998 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "189"
+
+2024-07-26 16:37:15.776 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "193"
+
+2024-07-26 16:40:36.668 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "207"
+
+2024-07-26 16:40:47.151 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "208"
+
+2024-07-26 16:40:58.040 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "209"
+
+2024-07-26 16:44:18.683 [info] Exception in thread Thread-131:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+    compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/shahnawaz_nazimali/martproject/inventory/app/main.py", line 144
+    @app.get("/products/{product_id}", response_model=list[Product])
+IndentationError: expected an indented block after 'if' statement on line 133
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+    self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+    diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+    raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-07-26 16:51:08.239 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "258"
+
+2024-07-26 16:51:08.340 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "259"
+
+2024-07-26 16:51:18.844 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "263"
+
+2024-07-26 16:51:26.418 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "264"
+
+2024-07-26 16:51:34.036 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "265"
+
+2024-07-26 16:51:34.228 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "267"
+
+2024-07-26 16:51:45.222 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "266"
+
+2024-07-26 16:52:43.114 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "274"
+
+2024-07-26 16:52:45.856 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "278"
+
+2024-07-26 16:52:46.517 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "280"
+
+2024-07-26 16:52:56.312 [info] ERROR:pygls.protocol:Failed to handle request 289 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-26 16:52:56.315 [info] [Error - 4:52:56 PM] Request textDocument/codeAction failed.
+2024-07-26 16:52:56.315 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-26 16:58:06.362 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "293"
+
+2024-07-26 16:58:29.374 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "315"
+
+2024-07-26 16:58:43.346 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "316"
+
+2024-07-26 16:58:53.099 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "317"
+
+2024-07-26 16:59:04.176 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "318"
+
+2024-07-26 16:59:15.049 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "319"
+
+2024-07-26 16:59:25.901 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "320"
+
+2024-07-26 16:59:35.636 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "321"
+
+2024-07-26 16:59:35.811 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "323"
+
+2024-07-26 16:59:44.600 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "322"
+
+2024-07-26 16:59:44.601 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "324"
+
+2024-07-26 16:59:44.612 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "325"
+
+2024-07-26 16:59:44.680 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "326"
+
+2024-07-26 16:59:44.730 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "327"
+
+2024-07-26 16:59:44.781 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "328"
+
+2024-07-26 16:59:44.832 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "329"
+
+2024-07-26 17:05:28.717 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "348"
+
+2024-07-26 17:05:37.444 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "349"
+
+2024-07-26 17:05:37.613 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "351"
+
+2024-07-26 17:05:47.311 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "350"
+
+2024-07-26 17:07:46.979 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "353"
+
+2024-07-26 17:08:04.746 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "366"
+
+2024-07-26 17:08:15.654 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "367"
+
+2024-07-26 17:08:25.450 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "368"
+
+2024-07-26 17:09:51.421 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "384"
+
+2024-07-26 17:09:52.192 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "386"
+WARNING:pygls.protocol:Cancel notification for unknown message id "385"
+
+2024-07-26 17:09:52.199 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "387"
+
+2024-07-26 17:09:52.225 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "388"
+
+2024-07-26 17:09:52.227 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "389"
+
+2024-07-26 17:09:52.245 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "390"
+
+2024-07-26 17:11:40.590 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "435"
+
+2024-07-26 17:11:41.286 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "436"
+

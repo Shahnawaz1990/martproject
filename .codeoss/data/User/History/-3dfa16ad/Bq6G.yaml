@@ -1,0 +1,57 @@
+version: '3.8'
+name: template01
+services:  
+  product:
+      build:
+        context: ./product
+        dockerfile: Dockerfile.dev
+      volumes:
+        - ./product:/code  # Sync local development directory with the container
+      depends_on:
+          - postgres_db
+          # - broker
+      ports:
+        - "8000:8000"  # Expose container port 8000 to host port 8000  
+  orders:
+      build:
+        context: ./orders
+        dockerfile: Dockerfile.dev
+      volumes:
+        - ./orders:/code  # Sync local development directory with the container
+      depends_on:
+          - postgres_db
+          - product
+          # - broker
+      ports:
+        - "8001:8000"  # Expose container port 8000 to host port 8000  
+  inventory:
+      build:
+        context: ./inventory
+        dockerfile: Dockerfile.dev
+      volumes:
+        - ./inventory:/code  # Sync local development directory with the container
+      depends_on:
+          - postgres_db
+          - product
+          # - broker
+      ports:
+        - "8002:8000"  # Expose container port 8000 to host port 8000  
+  postgres_db:
+    image: postgres:latest  # Use the official PostgreSQL image
+    restart: always
+    container_name: PostgresCont
+    environment:
+        - POSTGRES_USER=ziakhan
+        - POSTGRES_PASSWORD=my_password
+        - POSTGRES_DB=mydatabase
+    ports:
+        - '5433:5432'
+    volumes:
+        - postgres_db:/var/lib/postgresql/data
+  
+volumes:
+  postgres_db:
+    driver: local
+networks:
+  default:
+    driver: bridge

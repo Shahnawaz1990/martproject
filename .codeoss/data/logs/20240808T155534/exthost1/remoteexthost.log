@@ -1,0 +1,5 @@
+2024-08-08 16:01:28.961 [info] Extension host with pid 1185 started
+2024-08-08 16:01:29.025 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb/vscode.lock': Lock acquired.
+2024-08-08 16:02:55.797 [info] Extension host terminating: received terminate message from renderer
+2024-08-08 16:02:55.799 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-08 16:02:55.802 [info] Extension host with pid 1185 exiting with code 0

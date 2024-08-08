@@ -1,0 +1,7 @@
+2024-08-04 12:21:11.704 [info] Default formatter is set to null for workspace /home/shahnawaz_nazimali
+2024-08-04 12:21:11.728 [info] Test server listening.
+2024-08-04 12:21:11.730 [info] Python interpreter path: /bin/python
+2024-08-04 12:21:12.037 [info] > pyenv which python
+2024-08-04 12:21:12.037 [info] cwd: .
+2024-08-04 12:21:13.554 [info] Starting Jedi language server for shahnawaz_nazimali.
+2024-08-04 12:21:28.714 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/payment/app/main.py

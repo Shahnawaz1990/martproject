@@ -1,0 +1,7 @@
+2024-08-08 16:03:37.636 [info] Default formatter is set to null for workspace /home/shahnawaz_nazimali
+2024-08-08 16:03:37.636 [info] Test server listening.
+2024-08-08 16:03:37.669 [info] > /bin/python -I /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/get_output_via_markers.py /google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/interpreterInfo.py
+2024-08-08 16:03:37.745 [info] Python interpreter path: /bin/python
+2024-08-08 16:03:38.459 [info] > pyenv which python
+2024-08-08 16:03:38.459 [info] cwd: .
+2024-08-08 16:03:45.045 [info] Starting Jedi language server for shahnawaz_nazimali.

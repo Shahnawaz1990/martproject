@@ -1,0 +1,25 @@
+2024-08-04 11:52:30.230 [info] Extension host with pid 1165 started
+2024-08-04 11:52:30.259 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb/vscode.lock': Lock acquired.
+2024-08-04 11:52:30.879 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-08-04 11:52:30.881 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-08-04 11:52:31.896 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-08-04 11:52:32.172 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-08-04 11:52:32.172 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-08-04 11:52:38.900 [info] Not activating extension 'hashicorp.terraform': Timed out while searching for 'workspaceContains' pattern **/*.tf,**/*.tfvars
+2024-08-04 11:52:38.900 [info] Not activating extension 'redhat.fabric8-analytics': Timed out while searching for 'workspaceContains' pattern **/package.json,**/pom.xml,**/go.mod,**/requirements.txt
+2024-08-04 11:52:38.901 [info] Not activating extension 'redhat.java': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-08-04 11:52:38.901 [info] Not activating extension 'vscjava.vscode-java-dependency': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-08-04 11:52:38.902 [info] Not activating extension 'vscjava.vscode-java-test': Timed out while searching for 'workspaceContains' pattern */pom.xml,*/build.gradle,*/settings.gradle,*/build.gradle.kts,*/settings.gradle.kts,*/.classpath
+2024-08-04 11:52:38.902 [info] Not activating extension 'vscjava.vscode-maven': Timed out while searching for 'workspaceContains' pattern **/pom.xml
+2024-08-04 11:52:39.103 [info] Eager extensions activated
+2024-08-04 11:52:39.103 [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: false, activationEvent: 'onStartupFinished'
+2024-08-04 11:52:39.104 [info] ExtensionService#_doActivateExtension google.cloud-shell, startup: false, activationEvent: 'onStartupFinished'
+2024-08-04 11:52:39.104 [info] ExtensionService#_doActivateExtension googlecloudtools.cloudcode, startup: false, activationEvent: 'onStartupFinished'
+2024-08-04 11:52:39.105 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-08-04 11:52:39.106 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-08-04 11:52:42.232 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-04 11:52:42.235 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-08-04 12:02:07.160 [info] ExtensionService#_doActivateExtension ms-azuretools.vscode-docker, startup: false, activationEvent: 'onLanguage:dockercompose'
+2024-08-04 12:26:01.314 [info] Extension host terminating: renderer disconnected for too long (2)
+2024-08-04 12:26:01.316 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-08-04 12:26:01.383 [info] Extension host with pid 1165 exiting with code 0

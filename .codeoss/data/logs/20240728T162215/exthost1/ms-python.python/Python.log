@@ -1,0 +1,38 @@
+2024-07-28 16:22:41.381 [info] Default formatter is set to null for workspace /home/shahnawaz_nazimali
+2024-07-28 16:22:41.381 [info] Test server listening.
+2024-07-28 16:22:41.381 [info] Python interpreter path: /bin/python
+2024-07-28 16:22:41.853 [info] > pyenv which python
+2024-07-28 16:22:41.853 [info] cwd: .
+2024-07-28 16:22:46.134 [info] Starting Jedi language server for shahnawaz_nazimali.
+2024-07-28 16:33:41.997 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:33:44.464 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:33:48.150 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:34:19.892 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:34:21.260 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:34:23.972 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:34:27.682 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:35:19.455 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:35:20.796 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:35:22.772 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:35:28.614 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:35:34.343 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:35:40.010 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:36:07.890 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:36:10.314 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:36:26.704 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:36:28.646 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:36:49.252 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:37:36.268 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:37:37.315 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:37:56.185 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:37:57.191 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:42:52.603 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:45:17.400 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:45:22.695 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:45:32.854 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:45:38.647 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:45:48.589 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:46:17.692 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:46:20.072 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:46:21.495 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py
+2024-07-28 16:47:49.444 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/inventory/app/main.py

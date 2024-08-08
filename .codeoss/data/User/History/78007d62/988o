@@ -1,0 +1,11 @@
+FROM node:20
+
+WORKDIR /code
+
+COPY /uit-api-nextjs/todonextfastapi-app /code/
+
+RUN npm install
+
+EXPOSE 3001
+
+CMD ["npm", "run", "dev", "-p", "3001"]

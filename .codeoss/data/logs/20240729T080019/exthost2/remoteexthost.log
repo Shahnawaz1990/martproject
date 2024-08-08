@@ -1,0 +1,8 @@
+2024-07-29 10:11:35.725 [info] Extension host with pid 12096 started
+2024-07-29 10:11:35.725 [error] Error: EEXIST: file already exists, open '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb/vscode.lock'
+2024-07-29 10:11:35.733 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-07-29 10:11:35.739 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb/vscode.lock': The lock does not look stale, elapsed: 606 ms, giving up.
+2024-07-29 10:11:35.759 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb-1/vscode.lock': Lock acquired.
+2024-07-29 10:12:09.175 [info] Extension host terminating: received terminate message from renderer
+2024-07-29 10:12:09.177 [info] Lock '/home/shahnawaz_nazimali/.codeoss/data/User/workspaceStorage/35b348cb-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-07-29 10:12:09.180 [info] Extension host with pid 12096 exiting with code 0

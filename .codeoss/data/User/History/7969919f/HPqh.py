@@ -1,0 +1,1 @@
+from product.app.main import Product

@@ -1,0 +1,16 @@
+2024-08-05 15:34:03.303 [info] Default formatter is set to null for workspace /home/shahnawaz_nazimali
+2024-08-05 15:34:03.303 [info] Test server listening.
+2024-08-05 15:34:03.303 [info] Python interpreter path: /bin/python
+2024-08-05 15:34:03.601 [info] > pyenv which python
+2024-08-05 15:34:03.601 [info] cwd: .
+2024-08-05 15:34:08.637 [info] Starting Jedi language server for shahnawaz_nazimali.
+2024-08-05 15:59:52.658 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:03:35.810 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:03:45.073 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:03:51.064 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:03:54.103 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:05:04.363 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:05:09.655 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:26:25.324 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:26:42.800 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py
+2024-08-05 16:26:46.839 [info] Discover tests for workspace name: shahnawaz_nazimali - uri: /home/shahnawaz_nazimali/martproject/product/app/main.py

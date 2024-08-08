@@ -1,0 +1,1346 @@
+2024-07-29 08:14:12.735 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "8"
+
+2024-07-29 08:14:12.746 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "9"
+
+2024-07-29 08:15:45.095 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "36"
+
+2024-07-29 08:15:45.593 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "37"
+
+2024-07-29 08:15:49.430 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "39"
+
+2024-07-29 08:15:51.021 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "40"
+
+2024-07-29 08:15:52.274 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "41"
+
+2024-07-29 08:15:53.041 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "42"
+
+2024-07-29 08:16:41.901 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "46"
+
+2024-07-29 08:16:45.135 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "47"
+
+2024-07-29 08:16:47.995 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "48"
+
+2024-07-29 08:16:48.469 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "50"
+
+2024-07-29 08:16:48.470 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "49"
+
+2024-07-29 08:16:50.665 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "51"
+
+2024-07-29 08:17:15.764 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "59"
+
+2024-07-29 08:17:16.637 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "60"
+
+2024-07-29 08:17:25.291 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "67"
+
+2024-07-29 08:17:28.405 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "74"
+
+2024-07-29 08:17:49.021 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "88"
+
+2024-07-29 08:18:50.308 [info] Exception in thread Thread-165:
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 299, in lsp_python_diagnostic
+
+2024-07-29 08:18:50.309 [info]     compile(source, uri, "exec", PyCF_ONLY_AST)
+  File "file:///home/shahnawaz_nazimali/martproject/inventory/app/main.py", line 158
+
+2024-07-29 08:18:50.309 [info]     @app.get("/products/{product_id}", response_model=list[Product])
+IndentationError: expected an indented block after 'for' statement on line 140
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+
+2024-07-29 08:18:50.312 [info]     self.run()
+  File "/usr/lib/python3.10/threading.py", line 1378, in run
+
+2024-07-29 08:18:50.313 [info]     self.function(*self.args, **self.kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 71, in run
+
+2024-07-29 08:18:50.313 [info]     return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 653, in _publish_diagnostics
+
+2024-07-29 08:18:50.314 [info]     diagnostic = jedi_utils.lsp_python_diagnostic(uri, doc.source)
+
+2024-07-29 08:18:50.315 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/jedi_utils.py", line 320, in lsp_python_diagnostic
+    end=Position(line=until_line, character=until_column),
+  File "<attrs generated init lsprotocol.types.Position>", line 7, in __init__
+
+2024-07-29 08:18:50.315 [info]   File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/lsprotocol/validators.py", line 44, in uinteger_validator
+
+2024-07-29 08:18:50.316 [info]     raise ValueError(
+ValueError: Position.character should be in range [0:2147483647], but was -1.
+
+2024-07-29 08:20:13.933 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "168"
+
+2024-07-29 08:20:32.967 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "174"
+
+2024-07-29 08:21:20.778 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "196"
+
+2024-07-29 08:21:39.474 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "214"
+
+2024-07-29 08:22:01.124 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "215"
+
+2024-07-29 08:22:01.127 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "217"
+
+2024-07-29 08:22:01.131 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "216"
+
+2024-07-29 08:22:01.183 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "218"
+
+2024-07-29 08:22:01.183 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "219"
+
+2024-07-29 08:22:01.234 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "220"
+
+2024-07-29 08:22:01.248 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "221"
+
+2024-07-29 08:22:01.310 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "223"
+
+2024-07-29 08:22:01.312 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "222"
+
+2024-07-29 08:22:01.381 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "224"
+
+2024-07-29 08:22:01.383 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "225"
+
+2024-07-29 08:22:02.361 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "226"
+
+2024-07-29 08:22:02.362 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "227"
+
+2024-07-29 08:22:02.364 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "229"
+
+2024-07-29 08:22:02.366 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "228"
+
+2024-07-29 08:22:02.399 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "230"
+
+2024-07-29 08:22:02.401 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "232"
+
+2024-07-29 08:22:02.403 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "231"
+
+2024-07-29 08:22:02.412 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "233"
+
+2024-07-29 08:22:02.414 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "234"
+
+2024-07-29 08:22:02.428 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "235"
+
+2024-07-29 08:22:02.430 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "236"
+
+2024-07-29 08:22:02.481 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "237"
+
+2024-07-29 08:22:02.483 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "238"
+
+2024-07-29 08:22:02.533 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "239"
+
+2024-07-29 08:22:02.535 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "240"
+
+2024-07-29 08:22:02.547 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "243"
+
+2024-07-29 08:22:02.550 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "244"
+
+2024-07-29 08:22:02.551 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "241"
+
+2024-07-29 08:22:02.553 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "245"
+
+2024-07-29 08:22:02.555 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "246"
+
+2024-07-29 08:22:02.557 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "247"
+
+2024-07-29 08:22:02.560 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "248"
+
+2024-07-29 08:22:02.562 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "249"
+
+2024-07-29 08:22:02.564 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "250"
+
+2024-07-29 08:22:02.566 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "251"
+
+2024-07-29 08:22:02.568 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "242"
+
+2024-07-29 08:22:02.579 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "252"
+
+2024-07-29 08:22:02.581 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "254"
+
+2024-07-29 08:22:02.583 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "253"
+
+2024-07-29 08:22:02.595 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "255"
+
+2024-07-29 08:22:02.597 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "256"
+
+2024-07-29 08:22:02.618 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "257"
+
+2024-07-29 08:22:02.620 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "258"
+
+2024-07-29 08:22:02.635 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "261"
+
+2024-07-29 08:22:02.638 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "262"
+
+2024-07-29 08:22:02.645 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "263"
+
+2024-07-29 08:22:02.649 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "264"
+
+2024-07-29 08:22:02.654 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "259"
+
+2024-07-29 08:22:02.659 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "260"
+
+2024-07-29 08:22:03.292 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "265"
+
+2024-07-29 08:22:03.292 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "266"
+
+2024-07-29 08:22:03.300 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "268"
+
+2024-07-29 08:22:03.302 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "269"
+
+2024-07-29 08:22:03.302 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "270"
+
+2024-07-29 08:22:03.304 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "271"
+
+2024-07-29 08:22:03.306 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "272"
+
+2024-07-29 08:22:03.313 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "267"
+
+2024-07-29 08:22:03.362 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "273"
+
+2024-07-29 08:22:03.364 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "274"
+
+2024-07-29 08:22:03.374 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "275"
+
+2024-07-29 08:22:03.376 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "276"
+
+2024-07-29 08:22:03.385 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "277"
+
+2024-07-29 08:22:03.387 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "279"
+
+2024-07-29 08:22:03.389 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "280"
+
+2024-07-29 08:22:03.391 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "281"
+
+2024-07-29 08:22:03.393 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "282"
+
+2024-07-29 08:22:03.395 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "283"
+
+2024-07-29 08:22:03.397 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "284"
+
+2024-07-29 08:22:03.398 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "278"
+
+2024-07-29 08:22:03.434 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "285"
+
+2024-07-29 08:22:03.436 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "286"
+
+2024-07-29 08:22:03.467 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "287"
+
+2024-07-29 08:22:03.469 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "288"
+
+2024-07-29 08:22:34.881 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "330"
+
+2024-07-29 08:22:44.159 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "332"
+
+2024-07-29 08:22:47.164 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "334"
+
+2024-07-29 08:22:48.067 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "335"
+
+2024-07-29 08:22:48.739 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "336"
+
+2024-07-29 08:22:49.951 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "337"
+
+2024-07-29 08:22:58.729 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "345"
+
+2024-07-29 08:22:58.734 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "346"
+
+2024-07-29 08:22:58.736 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "347"
+
+2024-07-29 08:22:58.739 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "348"
+
+2024-07-29 08:22:59.205 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "349"
+
+2024-07-29 08:22:59.207 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "350"
+
+2024-07-29 08:22:59.210 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "351"
+
+2024-07-29 08:22:59.213 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "352"
+
+2024-07-29 08:23:01.042 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "359"
+
+2024-07-29 08:23:01.045 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "360"
+
+2024-07-29 08:23:01.047 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "361"
+
+2024-07-29 08:23:01.052 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "362"
+
+2024-07-29 08:23:07.394 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "376"
+
+2024-07-29 08:23:07.397 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "377"
+
+2024-07-29 08:23:07.399 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "378"
+
+2024-07-29 08:23:07.402 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "379"
+
+2024-07-29 08:23:39.177 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "435"
+
+2024-07-29 08:33:51.974 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "476"
+
+2024-07-29 08:39:59.963 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "496"
+
+2024-07-29 08:41:09.303 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "508"
+
+2024-07-29 08:41:20.366 [info] ERROR:pygls.protocol:Failed to handle request 509 textDocument/hover HoverParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/inventory/app/main.py'), position=139:38, work_done_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 384, in hover
+    jedi_script.help(*jedi_lines),
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 372, in help
+    definitions = self.goto(line, column, follow_imports=True)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 300, in goto
+    names = list(name.goto())
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/names.py", line 182, in goto
+    value_set = context.infer_node(to_infer[0])
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node
+    return infer_or_test(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test
+    types = context.infer_node(next(iterator))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node
+    return infer_node(self, node)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node
+    return _infer_node_if_inferred(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred
+    return _infer_node_cached(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper
+    rv = function(obj, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached
+    return _infer_node(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper
+    return func(*args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper
+    return func(context, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node
+    return infer_atom(context, element)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom
+    assert False, 'Cannot infer the keyword %s' % atom
+AssertionError: Cannot infer the keyword <Keyword: from>
+
+2024-07-29 08:41:20.370 [info] [Error - 8:41:20 AM] Request textDocument/hover failed.
+2024-07-29 08:41:20.370 [info]   Message: AssertionError: Cannot infer the keyword <Keyword: from>
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 384, in hover\n    jedi_script.help(*jedi_lines),\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 372, in help\n    definitions = self.goto(line, column, follow_imports=True)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 300, in goto\n    names = list(name.goto())\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/names.py", line 182, in goto\n    value_set = context.infer_node(to_infer[0])\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 255, in _infer_node\n    return infer_or_test(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 461, in infer_or_test\n    types = context.infer_node(next(iterator))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/context.py", line 224, in infer_node\n    return infer_node(self, node)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 157, in infer_node\n    return _infer_node_if_inferred(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 170, in _infer_node_if_inferred\n    return _infer_node_cached(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/cache.py", line 44, in wrapper\n    rv = function(obj, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 175, in _infer_node_cached\n    return _infer_node(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/debug.py", line 81, in wrapper\n    return func(*args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 83, in wrapper\n    return func(context, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 185, in _infer_node\n    return infer_atom(context, element)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/inference/syntax_tree.py", line 314, in infer_atom\n    assert False, \'Cannot infer the keyword %s\' % atom\n']}
+2024-07-29 08:42:52.402 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "528"
+
+2024-07-29 08:42:52.410 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "529"
+
+2024-07-29 08:42:52.419 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "527"
+
+2024-07-29 08:42:52.931 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "530"
+
+2024-07-29 08:42:52.931 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "531"
+
+2024-07-29 08:42:52.950 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "532"
+
+2024-07-29 08:47:19.615 [info] ERROR:pygls.protocol:Failed to handle request 544 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:47:19.617 [info] [Error - 8:47:19 AM] Request textDocument/codeAction failed.
+2024-07-29 08:47:19.617 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:47:29.048 [info] ERROR:pygls.protocol:Failed to handle request 548 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:47:29.109 [info] [Error - 8:47:29 AM] Request textDocument/codeAction failed.
+2024-07-29 08:47:29.109 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:47:45.399 [info] ERROR:pygls.protocol:Failed to handle request 553 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:47:45.400 [info] [Error - 8:47:45 AM] Request textDocument/codeAction failed.
+2024-07-29 08:47:45.400 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:49:20.468 [info] ERROR:pygls.protocol:Failed to handle request 557 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:49:20.469 [info] [Error - 8:49:20 AM] Request textDocument/codeAction failed.
+2024-07-29 08:49:20.469 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:49:26.119 [info] ERROR:pygls.protocol:Failed to handle request 561 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:49:26.120 [info] [Error - 8:49:26 AM] Request textDocument/codeAction failed.
+2024-07-29 08:49:26.120 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:50:55.313 [info] ERROR:pygls.protocol:Failed to handle request 565 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:50:55.313 [info] [Error - 8:50:55 AM] Request textDocument/codeAction failed.
+2024-07-29 08:50:55.314 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:51:05.455 [info] ERROR:pygls.protocol:Failed to handle request 569 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:51:05.456 [info] [Error - 8:51:05 AM] Request textDocument/codeAction failed.
+2024-07-29 08:51:05.456 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:51:25.050 [info] ERROR:pygls.protocol:Failed to handle request 573 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:51:25.051 [info] [Error - 8:51:25 AM] Request textDocument/codeAction failed.
+2024-07-29 08:51:25.051 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:51:30.896 [info] ERROR:pygls.protocol:Failed to handle request 577 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 08:51:30.897 [info] [Error - 8:51:30 AM] Request textDocument/codeAction failed.
+2024-07-29 08:51:30.897 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 08:53:40.620 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "608"
+
+2024-07-29 08:54:44.687 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "621"
+
+2024-07-29 08:54:45.201 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "622"
+
+2024-07-29 08:54:46.315 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "623"
+
+2024-07-29 08:54:46.829 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "625"
+
+2024-07-29 08:54:46.831 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "624"
+
+2024-07-29 08:56:13.417 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "644"
+
+2024-07-29 08:58:08.748 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "648"
+
+2024-07-29 08:59:59.265 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "660"
+
+2024-07-29 09:01:28.168 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "672"
+
+2024-07-29 09:01:28.439 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "673"
+
+2024-07-29 09:04:01.181 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "680"
+
+2024-07-29 09:04:20.662 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "687"
+
+2024-07-29 09:05:44.439 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "717"
+
+2024-07-29 09:05:54.858 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "723"
+
+2024-07-29 09:05:56.102 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "725"
+
+2024-07-29 09:05:56.326 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "726"
+
+2024-07-29 09:05:56.328 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "727"
+
+2024-07-29 09:05:56.340 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "729"
+
+2024-07-29 09:05:56.340 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "724"
+
+2024-07-29 09:05:56.342 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "728"
+
+2024-07-29 09:06:03.250 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "738"
+
+2024-07-29 09:06:04.497 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "745"
+
+2024-07-29 09:06:04.502 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "747"
+
+2024-07-29 09:06:33.982 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "754"
+
+2024-07-29 09:06:33.987 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "755"
+
+2024-07-29 09:06:45.364 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "760"
+
+2024-07-29 09:06:50.461 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "761"
+
+2024-07-29 09:06:55.422 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "762"
+
+2024-07-29 09:07:00.665 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "765"
+
+2024-07-29 09:07:00.666 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "763"
+
+2024-07-29 09:07:04.707 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "768"
+
+2024-07-29 09:07:09.668 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "773"
+
+2024-07-29 09:08:08.706 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "786"
+
+2024-07-29 09:08:08.793 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "788"
+
+2024-07-29 09:08:08.794 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "787"
+
+2024-07-29 09:08:08.939 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "790"
+WARNING:pygls.protocol:Cancel notification for unknown message id "789"
+
+2024-07-29 09:08:21.178 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "805"
+
+2024-07-29 09:08:21.179 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "804"
+
+2024-07-29 09:08:21.190 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "806"
+
+2024-07-29 09:08:21.206 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "807"
+
+2024-07-29 09:08:21.229 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "808"
+
+2024-07-29 09:09:03.053 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "813"
+
+2024-07-29 09:09:10.986 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "827"
+
+2024-07-29 09:09:11.198 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "829"
+
+2024-07-29 09:09:15.970 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "831"
+
+2024-07-29 09:09:21.568 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "835"
+
+2024-07-29 09:09:21.573 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "836"
+
+2024-07-29 09:09:21.576 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "837"
+
+2024-07-29 09:09:21.578 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "834"
+
+2024-07-29 09:09:21.589 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "839"
+
+2024-07-29 09:09:21.599 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "840"
+
+2024-07-29 09:09:21.600 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "838"
+
+2024-07-29 09:09:27.232 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "852"
+
+2024-07-29 09:09:28.128 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "853"
+
+2024-07-29 09:09:28.147 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "854"
+
+2024-07-29 09:09:28.173 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "855"
+
+2024-07-29 09:09:30.360 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "860"
+
+2024-07-29 09:09:36.720 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "862"
+
+2024-07-29 09:09:36.721 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "863"
+
+2024-07-29 09:09:36.773 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "864"
+
+2024-07-29 09:09:36.786 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "865"
+
+2024-07-29 09:09:43.897 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "871"
+
+2024-07-29 09:09:49.746 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "881"
+
+2024-07-29 09:10:00.843 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "891"
+
+2024-07-29 09:10:12.714 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "900"
+
+2024-07-29 09:10:12.769 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "901"
+
+2024-07-29 09:10:12.780 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "903"
+
+2024-07-29 09:10:12.780 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "902"
+
+2024-07-29 09:10:12.797 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "904"
+
+2024-07-29 09:10:12.817 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "905"
+
+2024-07-29 09:10:12.827 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "906"
+
+2024-07-29 09:10:13.210 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "907"
+
+2024-07-29 09:10:15.608 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "910"
+
+2024-07-29 09:10:15.609 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "909"
+
+2024-07-29 09:10:15.620 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "911"
+
+2024-07-29 09:10:25.525 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "915"
+
+2024-07-29 09:10:42.159 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "922"
+
+2024-07-29 09:10:42.164 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "921"
+
+2024-07-29 09:10:42.177 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "924"
+
+2024-07-29 09:10:42.228 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "925"
+
+2024-07-29 09:10:42.229 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "923"
+
+2024-07-29 09:11:12.081 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "932"
+
+2024-07-29 09:11:14.419 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "933"
+
+2024-07-29 09:11:17.531 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "934"
+
+2024-07-29 09:11:21.748 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "935"
+
+2024-07-29 09:11:24.536 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "936"
+
+2024-07-29 09:11:25.436 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "937"
+
+2024-07-29 09:11:25.437 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "938"
+
+2024-07-29 09:11:26.358 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "939"
+
+2024-07-29 09:11:28.528 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "940"
+
+2024-07-29 09:11:29.355 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "942"
+
+2024-07-29 09:11:30.112 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "943"
+
+2024-07-29 09:11:30.113 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "941"
+
+2024-07-29 09:11:32.501 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "944"
+
+2024-07-29 09:11:34.903 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "946"
+
+2024-07-29 09:11:34.904 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "945"
+
+2024-07-29 09:11:37.510 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "948"
+
+2024-07-29 09:11:37.709 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "949"
+
+2024-07-29 09:11:38.096 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "947"
+
+2024-07-29 09:11:40.493 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "951"
+
+2024-07-29 09:11:42.922 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "952"
+
+2024-07-29 09:11:42.923 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "950"
+
+2024-07-29 09:11:43.454 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "954"
+
+2024-07-29 09:11:43.455 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "953"
+
+2024-07-29 09:11:43.490 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "956"
+
+2024-07-29 09:11:43.496 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "955"
+
+2024-07-29 09:11:48.155 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "958"
+
+2024-07-29 09:11:49.707 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "959"
+
+2024-07-29 09:11:51.287 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "960"
+
+2024-07-29 09:11:51.346 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "961"
+
+2024-07-29 09:11:51.362 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "962"
+
+2024-07-29 09:11:51.380 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "963"
+
+2024-07-29 09:11:51.392 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "964"
+
+2024-07-29 09:11:51.408 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "965"
+
+2024-07-29 09:11:51.429 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "966"
+
+2024-07-29 09:11:51.473 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "967"
+
+2024-07-29 09:11:51.724 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "968"
+
+2024-07-29 09:11:59.740 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "969"
+
+2024-07-29 09:11:59.743 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "970"
+
+2024-07-29 09:11:59.754 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "972"
+
+2024-07-29 09:11:59.765 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "971"
+
+2024-07-29 09:11:59.770 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "974"
+
+2024-07-29 09:12:00.177 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "975"
+
+2024-07-29 09:12:00.578 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "973"
+
+2024-07-29 09:12:03.019 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "977"
+
+2024-07-29 09:12:05.377 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "976"
+
+2024-07-29 09:12:05.377 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "978"
+
+2024-07-29 09:12:06.270 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "979"
+
+2024-07-29 09:12:07.221 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "980"
+
+2024-07-29 09:12:07.971 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "982"
+
+2024-07-29 09:12:07.971 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "981"
+
+2024-07-29 09:12:10.403 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "983"
+
+2024-07-29 09:12:12.733 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "985"
+
+2024-07-29 09:12:12.957 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "986"
+
+2024-07-29 09:12:13.177 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "987"
+
+2024-07-29 09:12:13.583 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "984"
+
+2024-07-29 09:12:17.566 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "989"
+
+2024-07-29 09:12:21.113 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "990"
+
+2024-07-29 09:12:23.438 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "991"
+
+2024-07-29 09:12:25.785 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "992"
+
+2024-07-29 09:12:27.990 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "993"
+
+2024-07-29 09:12:30.219 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "994"
+
+2024-07-29 09:12:32.603 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "995"
+
+2024-07-29 09:12:34.812 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "996"
+
+2024-07-29 09:12:35.232 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "997"
+
+2024-07-29 09:12:36.133 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "999"
+
+2024-07-29 09:12:37.045 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1000"
+
+2024-07-29 09:12:37.046 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "998"
+
+2024-07-29 09:12:37.058 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1001"
+
+2024-07-29 09:12:37.968 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1003"
+
+2024-07-29 09:12:38.173 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1004"
+
+2024-07-29 09:12:38.173 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1002"
+
+2024-07-29 09:12:39.125 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1006"
+
+2024-07-29 09:12:39.155 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1007"
+
+2024-07-29 09:12:39.158 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1005"
+
+2024-07-29 09:12:50.993 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1029"
+
+2024-07-29 09:12:52.361 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1035"
+
+2024-07-29 09:13:16.391 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1095"
+
+2024-07-29 09:13:16.402 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1096"
+
+2024-07-29 09:13:16.413 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1098"
+
+2024-07-29 09:13:16.415 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1099"
+
+2024-07-29 09:13:16.619 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1100"
+
+2024-07-29 09:13:17.037 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1101"
+
+2024-07-29 09:13:17.043 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1102"
+
+2024-07-29 09:13:17.046 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1103"
+
+2024-07-29 09:13:17.048 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1104"
+
+2024-07-29 09:13:17.050 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1105"
+
+2024-07-29 09:13:17.053 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1097"
+
+2024-07-29 09:13:17.063 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1107"
+
+2024-07-29 09:13:17.063 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1106"
+
+2024-07-29 09:13:17.089 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1108"
+
+2024-07-29 09:13:17.107 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1110"
+
+2024-07-29 09:13:17.126 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1109"
+
+2024-07-29 09:13:23.212 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1124"
+
+2024-07-29 09:14:26.379 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1159"
+
+2024-07-29 09:14:36.598 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1163"
+
+2024-07-29 09:14:36.604 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1162"
+
+2024-07-29 09:14:36.621 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1165"
+
+2024-07-29 09:14:36.622 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1164"
+
+2024-07-29 09:14:54.123 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1169"
+
+2024-07-29 09:14:54.133 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1170"
+
+2024-07-29 09:15:01.395 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1172"
+
+2024-07-29 09:15:01.399 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1171"
+
+2024-07-29 09:15:01.418 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1174"
+
+2024-07-29 09:15:01.419 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1173"
+
+2024-07-29 09:15:01.480 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1175"
+
+2024-07-29 09:15:18.505 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1182"
+
+2024-07-29 09:18:13.299 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1201"
+
+2024-07-29 09:18:14.212 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1202"
+
+2024-07-29 09:18:16.305 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1203"
+
+2024-07-29 09:18:17.225 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1204"
+
+2024-07-29 09:18:59.082 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1216"
+
+2024-07-29 09:18:59.083 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1215"
+
+2024-07-29 09:19:04.928 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1225"
+
+2024-07-29 09:19:04.948 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1226"
+
+2024-07-29 09:19:05.959 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1227"
+
+2024-07-29 09:19:06.015 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1229"
+
+2024-07-29 09:19:07.463 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1231"
+
+2024-07-29 09:19:08.782 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1233"
+
+2024-07-29 09:19:08.794 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1234"
+
+2024-07-29 09:19:09.388 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1235"
+
+2024-07-29 09:19:10.025 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1238"
+
+2024-07-29 09:19:15.842 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1246"
+
+2024-07-29 09:19:17.919 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1248"
+
+2024-07-29 09:19:35.416 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1252"
+
+2024-07-29 09:19:36.347 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1253"
+
+2024-07-29 09:19:58.608 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1258"
+
+2024-07-29 09:20:01.388 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1263"
+
+2024-07-29 09:20:10.852 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1270"
+
+2024-07-29 09:20:36.439 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1277"
+
+2024-07-29 09:20:47.520 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1288"
+
+2024-07-29 09:20:47.521 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1289"
+
+2024-07-29 09:20:47.525 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1290"
+
+2024-07-29 09:20:47.532 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1291"
+
+2024-07-29 09:21:08.475 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1310"
+
+2024-07-29 09:21:08.536 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1311"
+
+2024-07-29 09:21:08.621 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1313"
+
+2024-07-29 09:21:08.661 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1314"
+
+2024-07-29 09:21:08.680 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1315"
+
+2024-07-29 09:21:08.682 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1312"
+
+2024-07-29 09:21:08.916 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1317"
+
+2024-07-29 09:21:09.858 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1318"
+
+2024-07-29 09:21:09.874 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1319"
+
+2024-07-29 09:21:10.131 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1321"
+
+2024-07-29 09:21:18.716 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1330"
+
+2024-07-29 09:21:18.727 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1331"
+
+2024-07-29 09:21:20.924 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1332"
+
+2024-07-29 09:21:23.158 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1333"
+
+2024-07-29 09:21:24.330 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1334"
+
+2024-07-29 09:21:24.408 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1335"
+
+2024-07-29 09:22:30.551 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1341"
+
+2024-07-29 09:22:30.554 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1342"
+
+2024-07-29 09:22:55.118 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1371"
+
+2024-07-29 09:22:55.141 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1372"
+
+2024-07-29 09:22:55.244 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1373"
+
+2024-07-29 09:23:11.087 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1389"
+
+2024-07-29 09:23:14.163 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1394"
+
+2024-07-29 09:23:16.892 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1398"
+
+2024-07-29 09:25:10.848 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1461"
+
+2024-07-29 09:25:18.418 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1470"
+
+2024-07-29 09:25:29.445 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1487"
+
+2024-07-29 09:27:05.794 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1534"
+
+2024-07-29 09:36:12.009 [info] ERROR:pygls.protocol:Failed to handle request 1552 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 09:36:12.010 [info] [Error - 9:36:12 AM] Request textDocument/codeAction failed.
+2024-07-29 09:36:12.010 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 09:41:51.516 [info] ERROR:pygls.protocol:Failed to handle request 1558 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 09:41:51.517 [info] [Error - 9:41:51 AM] Request textDocument/codeAction failed.
+2024-07-29 09:41:51.517 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 09:42:44.856 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1568"
+
+2024-07-29 09:42:46.071 [info] ERROR:pygls.protocol:Failed to handle request 1570 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=128:69-128:69, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 09:42:46.071 [info] [Error - 9:42:46 AM] Request textDocument/codeAction failed.
+2024-07-29 09:42:46.071 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 09:42:54.889 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1573"
+
+2024-07-29 09:42:55.644 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1574"
+
+2024-07-29 09:42:55.649 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1575"
+
+2024-07-29 09:42:55.855 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1576"
+
+2024-07-29 09:42:56.820 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1577"
+
+2024-07-29 09:42:56.827 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1578"
+
+2024-07-29 09:42:56.873 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1579"
+
+2024-07-29 09:42:57.075 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1580"
+
+2024-07-29 09:43:26.410 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1608"
+
+2024-07-29 09:43:44.230 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1628"
+
+2024-07-29 09:43:44.237 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1629"
+
+2024-07-29 09:43:47.267 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1630"
+
+2024-07-29 09:43:47.268 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1631"
+
+2024-07-29 09:43:47.289 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1633"
+
+2024-07-29 09:43:47.292 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1634"
+
+2024-07-29 09:43:47.708 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1632"
+
+2024-07-29 09:43:48.622 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1635"
+
+2024-07-29 09:43:48.626 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1637"
+
+2024-07-29 09:43:48.631 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1636"
+
+2024-07-29 09:43:48.666 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1638"
+
+2024-07-29 09:43:48.674 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1640"
+
+2024-07-29 09:43:48.682 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1641"
+
+2024-07-29 09:43:48.690 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1642"
+
+2024-07-29 09:43:48.697 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1643"
+
+2024-07-29 09:43:53.355 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1655"
+
+2024-07-29 09:44:22.775 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1670"
+
+2024-07-29 09:44:22.786 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1671"
+
+2024-07-29 09:44:22.792 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1672"
+
+2024-07-29 09:44:22.823 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1674"
+
+2024-07-29 09:44:22.849 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1675"
+
+2024-07-29 09:44:30.075 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1681"
+
+2024-07-29 09:44:30.090 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1682"
+
+2024-07-29 09:44:33.096 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1688"
+
+2024-07-29 09:44:48.406 [info] ERROR:pygls.protocol:Failed to handle request 1700 textDocument/codeAction CodeActionParams(text_document=TextDocumentIdentifier(uri='file:///home/shahnawaz_nazimali/martproject/orders/app/main.py'), range=163:21-163:22, context=CodeActionContext(diagnostics=[], only=None, trigger_kind=<CodeActionTriggerKind.Automatic: 2>), work_done_token=None, partial_result_token=None)
+Traceback (most recent call last):
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request
+    self._execute_request(msg_id, handler, params)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request
+    self._send_response(msg_id, handler(params))
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action
+    extract_variable_refactoring = jedi_script.extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper
+    return func(self, line, column, *args, **kwargs)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable
+    return extract_variable(
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable
+    nodes = _find_nodes(module_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes
+    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes
+    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)
+  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes
+    nodes = nodes[start_index:end_index + 1]
+UnboundLocalError: local variable 'start_index' referenced before assignment
+
+2024-07-29 09:44:48.407 [info] [Error - 9:44:48 AM] Request textDocument/codeAction failed.
+2024-07-29 09:44:48.407 [info]   Message: UnboundLocalError: local variable 'start_index' referenced before assignment
+  Code: -32602 
+{'traceback': ['  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 340, in _handle_request\n    self._execute_request(msg_id, handler, params)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/pygls/protocol.py", line 264, in _execute_request\n    self._send_response(msg_id, handler(params))\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi_language_server/server.py", line 580, in code_action\n    extract_variable_refactoring = jedi_script.extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/helpers.py", line 487, in wrapper\n    return func(self, line, column, *args, **kwargs)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/__init__.py", line 628, in extract_variable\n    return extract_variable(\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 19, in extract_variable\n    nodes = _find_nodes(module_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 87, in _find_nodes\n    nodes = _remove_unwanted_expression_nodes(parent_node, pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 198, in _remove_unwanted_expression_nodes\n    nodes[0:1] = _remove_unwanted_expression_nodes(nodes[0], pos, until_pos)\n', '  File "/google/devshell/editor/code-oss-for-cloud-shell/extensions/ms-python.python/python_files/lib/jedilsp/jedi/api/refactoring/extract.py", line 196, in _remove_unwanted_expression_nodes\n    nodes = nodes[start_index:end_index + 1]\n']}
+2024-07-29 09:45:07.919 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1724"
+
+2024-07-29 09:49:02.653 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1758"
+
+2024-07-29 09:49:02.657 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1759"
+
+2024-07-29 09:49:02.661 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1760"
+
+2024-07-29 09:49:02.666 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1761"
+
+2024-07-29 09:49:02.670 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1762"
+
+2024-07-29 09:49:02.678 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1763"
+
+2024-07-29 09:49:02.680 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1764"
+
+2024-07-29 09:49:02.683 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1765"
+
+2024-07-29 09:49:02.687 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1766"
+
+2024-07-29 09:49:03.124 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1767"
+
+2024-07-29 09:49:03.127 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1768"
+
+2024-07-29 09:49:03.130 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1769"
+
+2024-07-29 09:49:03.134 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1770"
+
+2024-07-29 09:49:03.138 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1771"
+
+2024-07-29 09:49:03.145 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1772"
+
+2024-07-29 09:49:04.812 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1799"
+
+2024-07-29 09:49:04.815 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1800"
+
+2024-07-29 09:49:06.863 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1831"
+
+2024-07-29 09:49:06.890 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1832"
+
+2024-07-29 09:49:06.893 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1833"
+
+2024-07-29 09:49:08.378 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1841"
+
+2024-07-29 09:49:08.384 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1842"
+
+2024-07-29 09:49:08.389 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1843"
+
+2024-07-29 09:49:08.393 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1844"
+
+2024-07-29 09:49:08.400 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1845"
+
+2024-07-29 09:49:08.402 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1846"
+
+2024-07-29 09:49:08.407 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1847"
+
+2024-07-29 09:49:08.411 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1848"
+
+2024-07-29 09:49:08.418 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1849"
+
+2024-07-29 09:49:09.093 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1850"
+
+2024-07-29 09:55:11.472 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1882"
+
+2024-07-29 09:56:58.403 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1896"
+
+2024-07-29 09:56:59.096 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1900"
+
+2024-07-29 09:56:59.096 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1901"
+
+2024-07-29 09:57:01.547 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1907"
+
+2024-07-29 09:57:02.494 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1908"
+
+2024-07-29 09:57:02.497 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1910"
+
+2024-07-29 09:57:02.500 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1911"
+
+2024-07-29 09:57:02.504 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1912"
+
+2024-07-29 09:57:07.467 [info] WARNING:pygls.protocol:Cancel notification for unknown message id "1918"
+
